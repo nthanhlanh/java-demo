@@ -14,5 +14,10 @@ spring:
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     
+  hazelcast:
+    config:
+      classpath: hazelcast.xml
+
+    
 server:
    port: 8082

@@ -11,10 +11,10 @@ import org.springframework.context.annotation.Configuration;
 public class OpenApiConfig {
 
 
-    @Bean
-    GroupedOpenApi bookApis() { // group all APIs with `auth` in the path
-        return GroupedOpenApi.builder().group("books").pathsToMatch("/api/v1/books/**").build();
-    }
+//    @Bean
+//    GroupedOpenApi bookApis() { 
+//        return GroupedOpenApi.builder().group("books").pathsToMatch("/api/v1/books/**","/api/v1/hazelcast**").build();
+//    }
 
    
 }
